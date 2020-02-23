@@ -1,0 +1,83 @@
+body{
+    font-weight: bold;
+    font-size: medium;
+}
+.receipt{
+    font-style: italic;
+}
+.leftimg{
+    margin-left: 0.5rem !important;
+}
+.all{
+    border-bottom: dotted;
+    margin-top: -7px;
+}
+.date{
+    margin-left: 43px;
+}
+.thanks{
+    margin-left: 108px;
+}
+.service{
+    margin-left: 93px;
+}
+.amount{
+    margin-left: 68px;
+}
+.words{
+    margin-left: 75px;
+}
+.order{
+    margin-left: 283px;
+}
+.bank{
+    margin-left: 88px;
+}
+.epdl{
+    margin-top: -95px;
+}
+
+.office{
+    text-align: right;
+    line-height: 5px;
+    margin-top: 0px;
+}
+.img-epdl{
+    margin-top: -50px;
+}
+.nodate{
+    margin-top: 12px;
+}
+.receivedWith{
+    margin-left: 220px;
+    margin-top: -10px;
+}
+.thanksfrom{
+    margin-top: -12px;
+}
+.serviceinfo{
+    margin-left: 98px;
+}
+.sum{
+    margin-left: 63px;
+}
+.word{
+    margin-left: 75px;
+}
+.pay{
+    margin-left: 285px;
+}
+.bankfrom{
+    margin-left: 90px;
+}
+
+.rightform{
+    font-style: italic;
+}
+
+.bg{
+    background-color: #842729;
+    padding: 5px;
+    color: white;
+    font-style: italic;
+}

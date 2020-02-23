@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <style>
+        body{
+            font-weight: bold;
+            font-size: medium;
+        }
+        .receipt{
+            font-style: italic;
+        }
+        .leftimg{
+            margin-left: 0.5rem !important;
+        }
+        .all{
+            border-bottom: dotted;
+            margin-top: -7px;
+        }
+        .date{
+            margin-left: 43px;
+        }
+        .thanks{
+            margin-left: 108px;
+        }
+        .service{
+            margin-left: 93px;
+        }
+        .amount{
+            margin-left: 68px;
+        }
+        .words{
+            margin-left: 75px;
+        }
+        .order{
+            margin-left: 283px;
+        }
+        .bank{
+            margin-left: 88px;
+        }
+        .epdl{
+            margin-top: -95px;
+        }
+
+        .office{
+            text-align: right;
+            line-height: 5px;
+            margin-top: 0px;
+        }
+        .img-epdl{
+            margin-top: -50px;
+        }
+        .nodate{
+            margin-top: 12px;
+        }
+        .receivedWith{
+            margin-left: 220px;
+            margin-top: -10px;
+        }
+        .thanksfrom{
+            margin-top: -12px;
+        }
+        .serviceinfo{
+            margin-left: 98px;
+        }
+        .sum{
+            margin-left: 63px;
+        }
+        .word{
+            margin-left: 75px;
+        }
+        .pay{
+            margin-left: 285px;
+        }
+        .bankfrom{
+            margin-left: 90px;
+        }
+
+        .rightform{
+            font-style: italic;
+        }
+
+        .bg{
+            background-color: #842729;
+            padding: 5px;
+            color: white;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <div class="col-md-4 receipt" style="border-right-style: dotted;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>No:</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <span>Date: 
+                            <p class="all date"></p>
+                        </span>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive epdl ml-4 leftimg" src="./EPDL[201].jpg" width="90px" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>Thanks from : 
+                            <p class="all thanks"></p>
+                        </span> <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="all" ></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>Service info:
+                            <p class="all service"></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <span>Amount: 
+                            <p class="all amount" ></p>
+                        </span>
+                    </div>
+                    <div class="col-md-8">
+                        <span>in Words:
+                            <p class="all words" ></p>
+                        </span> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>By Cash/DD/TT/pay order cheque no:
+                            <p class="all order" ></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>Bank From:
+                            <p class="all bank" ></p>
+                        </span>
+                    </div>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-right">Receivers Signature</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-8 mt-1 ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 style="text-transform: uppercase;">Money Receipt</h3>
+                        <div class="row nodate rightform">
+                            <div class="col-md-6">
+                                <span>No:
+                                    <p 
+                                        style=
+                                        "border-bottom: dotted; 
+                                        margin-left: 30px;
+                                        margin-top: -7px;">
+                                    </p>
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+                                <span>Date:
+                                    <p 
+                                        style="border-bottom: dotted; 
+                                        margin-left: 43px;
+                                        margin-top: -7px;">
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 office">
+                        <p>office:</p>
+                        <p>H-42,Mohakhali(Amtoli),Dhaka-1212</p>
+                        <p>Phone:+88 02 9880441,Fac:+88 02 9880441</p>
+                        <p>Mobile:01619994041,01619994042,01619994043</p>
+                    </div>
+                    <div class="col-md-2 img-epdl">
+                        <img class="img-responsive" src="./EPDL[201].jpg" width="120px" />
+                    </div>
+                </div>
+                <div class="row rightform">
+                    <div class="col-md-12">
+                        <span class="with">Received With Thanks from : 
+                            <p class="all receivedWith"></p>
+                        </span> <br>
+                    </div>
+                </div>
+                <div class="row rightform">
+                    <div class="col-md-12">
+                        <p class="all thanksfrom" ></p>
+                    </div>
+                </div>
+                <div class="row rightform">
+                    <div class="col-md-12">
+                        <span>Service info:
+                            <p class="all serviceinfo"></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="row rightform">
+                    <div class="col-md-4">
+                        <span>Sum of: 
+                            <p class="all sum" ></p>
+                        </span>
+                    </div>
+                    <div class="col-md-8 rightform">
+                        <span>in Words:
+                            <p class="all word" ></p>
+                        </span> 
+                    </div>
+                </div>
+
+                <div class="row rightform">
+                    <div class="col-md-12">
+                        <span>By Cash/DD/TT/pay order cheque no:
+                            <p class="all pay" ></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="row rightform">
+                    <div class="col-md-12">
+                        <span>Bank From:
+                            <p class="all bankfrom" ></p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-right">Thanking You</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-left">Enduring Properties & Development Ltd.</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-right">Receivers Signature</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row bg">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <p class="text-center">email:info@epdlbd.com,web:www.epdlbd.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
